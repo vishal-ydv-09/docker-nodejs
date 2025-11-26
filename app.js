@@ -5,6 +5,8 @@ const app = express();
 app.get('/', (req,res) => {
 
     res.send ("<h2> Hello from node ,From the inside docker Container.....</h2>")
+    //for the master branch code 
+        console.log("App is running on branch master...");
 } );
 
 app.listen(

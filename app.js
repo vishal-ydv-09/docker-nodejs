@@ -8,7 +8,8 @@ app.get('/', (req,res) => {
     //it is for testing purpose only
         console.log("App is running on staging environment...");
     //for the master branch code 
-        console.log("App is running on branch master...");
+    console.log("App is running on branch master...");
+    console.log("App is running on staging environment...");
 } );
 
 app.listen(

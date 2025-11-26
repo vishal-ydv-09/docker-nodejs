@@ -5,6 +5,7 @@ const app = express();
 app.get('/', (req,res) => {
 
     res.send ("<h2> Hello from node ,From the inside docker Container.....</h2>")
+    //it is for testing purpose only
     console.log("App is running on staging environment...");
 } );
 

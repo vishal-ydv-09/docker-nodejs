@@ -9,7 +9,9 @@ app.get('/', (req,res) => {
         console.log("App is running on staging environment...");
     //for the master branch code 
     console.log("App is running on branch master...");
-    console.log("App is running on staging environment... but this is master branch");
+
+    console.log("App is running ");
+    console.log("New line added in master branch");
 } );
 
 app.listen(

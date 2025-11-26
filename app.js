@@ -7,7 +7,7 @@ app.get('/', (req,res) => {
     res.send ("<h2> Hello from node ,From the inside docker Container.....</h2>")
     //for the master branch code 
     console.log("App is running on branch master...");
-    console.log("App is running on staging environment...");
+    console.log("App is running on staging environment... but this is master branch");
 } );
 
 app.listen(
